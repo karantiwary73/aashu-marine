@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nodejs", "unzip"]
+
+[phases.build]
+cmds = ["unzip -o aashu-marine-main.zip"]
+
+[start]
+cmd = "cd aashu-marine-main/aashumarine-server && npm install && node server.js"
