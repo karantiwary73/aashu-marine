@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["nodejs", "unzip"]
+aptPkgs = ["unzip"]
 
 [phases.build]
 cmds = ["unzip -o aashu-marine-main.zip"]
