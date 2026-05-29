@@ -1,11 +1,2 @@
-[phases.setup]
-aptPkgs = ["unzip"]
-
-[phases.install]
-cmds = ["unzip -o aashu-marine-main.zip"]
-
-[phases.build]
-cmds = ["cd aashu-marine-main/aashumarine-server && npm install"]
-
 [start]
-cmd = "cd aashu-marine-main/aashumarine-server && node server.js"
+cmd = "bash startup.sh"
