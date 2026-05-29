@@ -1,0 +1,7 @@
+{
+  "name": "aashu-marine",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "unzip -o aashu-marine-main.zip && cd aashu-marine-main/aashumarine-server && npm install && node server.js"
+  }
+}
