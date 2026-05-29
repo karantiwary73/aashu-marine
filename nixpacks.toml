@@ -1,8 +1,5 @@
-[phases.setup]
-aptPkgs = ["unzip"]
-
 [phases.build]
-cmds = ["unzip -o aashu-marine-main.zip"]
+cmds = ["npm install adm-zip"]
 
 [start]
-cmd = "cd aashu-marine-main/aashumarine-server && npm install && node server.js"
+cmd = "node extract.cjs"
